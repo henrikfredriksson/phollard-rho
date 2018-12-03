@@ -1,0 +1,73 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: #000;
+}
+
+body {
+    font-family: Arial
+}
+
+.content {
+    border: 1px solid black;
+    background-color: #eef;
+    padding: 2em;
+    margin: 0 auto;
+    height: auto;
+    min-height: 300px;
+    width: 800px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.site-footer {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+hr {
+    width: 800px;
+}
+
+
+.center {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.jsfiddle {
+    padding: 10px;
+    border: none;
+    margin: auto;
+    width: 800px;
+}
+
+input {
+    text-align: center;
+    width: 300px;
+    background-color: #e8e8e8;
+    color: black;
+    font-size: 48px;
+    border: 2px solid grey;
+    border-radius: 4px;
+}
+
+.clear {
+    background-color: green; /* Green */
+    border: none;
+    color: salmon;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 48px;
+    font-family: "Arial", "Comic Sans MS";
+}
+
+.text {
+    width: 700px;
+    margin: 0 auto;
+}

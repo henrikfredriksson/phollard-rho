@@ -1,0 +1,29 @@
+{
+  "name": "pollard-rho",
+  "version": "1.0.0",
+  "description": "Implementation of Pollard-Rho algorithm",
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "standard": "*",
+    "standard-loader": "^6.0.1",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "bin": {},
+  "scripts": {
+    "debug": "webpack-dev-server",
+    "start": "webpack-dev-server --watch",
+    "build": "webpack"
+  }
+}
