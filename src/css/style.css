@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html {
+    font-family: 'Montserrat';
+}
+
 h1 {
     text-align: center;
 }
 
 h3 {
     color: #000;
-}
-
-body {
-    font-family: Arial
 }
 
 .content {
@@ -19,7 +21,6 @@ body {
     min-height: 300px;
     width: 800px;
     overflow: hidden;
-    border-radius: 30px;
 }
 
 .site-footer {
@@ -31,7 +32,6 @@ body {
 hr {
     width: 800px;
 }
-
 
 .center {
     margin: 0 auto;
@@ -64,7 +64,7 @@ input {
     text-decoration: none;
     display: inline-block;
     font-size: 48px;
-    font-family: "Arial", "Comic Sans MS";
+    font-family: 'Arial', 'Comic Sans MS';
 }
 
 .text {

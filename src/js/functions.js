@@ -6,8 +6,18 @@ function process () {
       console.log('New input')
       let prime = document.querySelector('#prime').value
 
-      if (!Number.isInteger(prime)) {
-        prime = eval(prime)
+      const parts = prime.match(/(\d+)([+*])(\d+)/)
+
+      if (parts !== null) {
+        const left = parseInt(parts[1]) ? parseInt(parts[1]) : null
+        const operator = parts[2] ? parts[2] : null
+        const right = parseInt(parts[3]) ? parseInt(parts[3]) : null
+
+        if (operator === '*') {
+          prime = left * right
+        } else if (operator === '+') {
+          prime = left + right
+        }
       }
 
       pollardRho1(prime)
